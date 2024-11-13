@@ -10,9 +10,14 @@ config_version=5
 
 [application]
 
-config/name="tutorial_2D"
+config/name="tutorial_2d"
+run/main_scene="res://label.tscn"
 config/features=PackedStringArray("4.3", "Mobile")
 config/icon="res://icon.svg"
+
+[dotnet]
+
+project/assembly_name="tutorial_2d"
 
 [rendering]
 
