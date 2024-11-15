@@ -3,12 +3,8 @@ using System;
 
 public partial class MySprite2D : Sprite2D
 {
-    private int _speed = 400;
+    private float _speed = 400;
     private float _angularSpeed = Mathf.Pi;
-    public MySprite2D()
-    {
-        GD.Print("Hello, world!");
-    }
 
     public override void _Process(double delta)
     {
@@ -17,6 +13,7 @@ public partial class MySprite2D : Sprite2D
         Position += velocity * (float)delta;
     }
 
+    // We also specified this function name in PascalCase in the editor's connection window.
     private void OnButtonPressed()
     {
         SetProcess(!IsProcessing());
