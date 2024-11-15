@@ -18,4 +18,17 @@ public partial class MySprite2D : Sprite2D
     {
         SetProcess(!IsProcessing());
     }
+
+    public override void _Ready()
+    {
+        var timer = GetNode<Timer>("Timer");
+        timer.WaitTime = 2;
+        timer.Timeout += OnTimerTimeout;
+    }
+
+    private void OnTimerTimeout()
+    {
+        Visible = !Visible;
+    }
+
 }

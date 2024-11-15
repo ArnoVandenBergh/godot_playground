@@ -5,6 +5,11 @@
 [node name="Node2D" type="Node2D"]
 
 [node name="Sprite2D" parent="." instance=ExtResource("1_vyu77")]
+position = Vector2(586, 272)
+
+[node name="Timer" type="Timer" parent="Sprite2D"]
+wait_time = 1.731
+autostart = true
 
 [node name="Button" type="Button" parent="."]
 offset_left = 37.0
