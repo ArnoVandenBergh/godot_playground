@@ -1,3 +1,6 @@
 {
-  "godotTools.editorPath.godot4": "c:\\Program Files\\Godot\\Godot_v4.3-stable_mono_win64_console.exe"
+  "godotTools.editorPath.godot4": "c:\\Program Files\\Godot\\Godot_v4.3-stable_mono_win64_console.exe",
+  "omnisharp.enableRoslynAnalyzers": true,
+  "omnisharp.enableEditorConfigSupport": true,
+  "omnisharp.enableMSBuildLoadProjectsOnDemand": true
 }
