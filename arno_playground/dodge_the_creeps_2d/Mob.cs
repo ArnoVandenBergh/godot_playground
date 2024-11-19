@@ -15,4 +15,9 @@ public partial class Mob : RigidBody2D
 	public override void _Process(double delta)
 	{
 	}
+
+	private void OnVisibleOnScreenNotifier2DScreenExited()
+	{
+		QueueFree();
+	}
 }
