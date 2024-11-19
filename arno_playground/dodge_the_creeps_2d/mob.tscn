@@ -1,5 +1,6 @@
-[gd_scene load_steps=9 format=3 uid="uid://wc5k413t818w"]
+[gd_scene load_steps=10 format=3 uid="uid://wc5k413t818w"]
 
+[ext_resource type="Script" path="res://Mob.cs" id="1_mw20r"]
 [ext_resource type="Texture2D" uid="uid://cr7hucfxxc0ia" path="res://art/enemyFlyingAlt_1.png" id="1_v3xxe"]
 [ext_resource type="Texture2D" uid="uid://borvbctr04md3" path="res://art/enemyFlyingAlt_2.png" id="2_twbvh"]
 [ext_resource type="Texture2D" uid="uid://ceww15s28cxky" path="res://art/enemySwimming_1.png" id="3_mopd7"]
@@ -50,6 +51,7 @@ height = 100.0
 [node name="Mob" type="RigidBody2D"]
 collision_mask = 0
 gravity_scale = 0.0
+script = ExtResource("1_mw20r")
 metadata/_edit_group_ = true
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
